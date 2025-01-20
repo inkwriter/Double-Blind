@@ -4,6 +4,9 @@ body {
     color: #333;
     margin: 0;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   
   .container {
@@ -13,7 +16,7 @@ body {
   }
   
   textarea {
-    width: 100%;
+    width: 80%;
     height: 100px;
     margin: 10px 0;
     padding: 10px;
@@ -30,6 +33,7 @@ body {
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
+    margin: 10px;
   }
   
   button:hover {
